@@ -1,0 +1,41 @@
+body {
+  background-image: url("../Images/dark-tire.png");
+}
+
+h2 {
+  font-weight: bold;
+}
+
+/* style for the main card  */
+
+.card {
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  padding: 40px 10%;
+  margin: 40px 150px;
+  position: relative;
+  box-shadow: 8rem;
+}
+
+.content {
+  padding-top: 20px;
+  text-align: left;
+  line-height: 2;
+}
+
+img {
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+em {
+  font-style: normal;
+  font-weight: bolder;
+  color: #9e7777;
+}
+
+.clear {
+  clear: left;
+}
