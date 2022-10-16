@@ -1,0 +1,39 @@
+body {
+  background-color: #D6E6F2;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.3rem;
+  color: #769FCD;
+  font-weight: bold;
+}
+
+caption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #769FCD;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #F7FBFC
+}
+
+th, td {
+  padding: 20px 10px;
+  border-width: 2pt;
+  text-align: left;
+}
+
+a:link {
+  color: #769FCD;
+}
+
+a:hover {
+  color: #40514E;
+}
