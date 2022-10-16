@@ -1,0 +1,18 @@
+body {
+  line-height: 3rem;
+}
+
+.qa-section {
+  text-align: left;
+  padding: 70px;
+}
+
+.between-hr {
+  margin: 70px 0;
+}
+
+
+th, td {
+  padding: 20px;
+  text-align: left;
+}

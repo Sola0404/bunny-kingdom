@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #87805e;
+  background-color: #faeee0;
+}
+
+.dark-section {
+  background-color: #9e7777;
+}
+
+/* heading settings */
+h1 {
+  font-family: "Playfair Display", serif;
+  /* font-family: 'Sacramento', cursive; only used in me.html and index.html*/
+  margin: 50px auto 0 auto;
+  font-size: 5.62rem; /*16px = 1em */
+  color: #6f4c5b;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.3rem;
+  color: #9e7777;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #f6f6f6;
+}
+
+p {
+  letter-spacing: 2px;
+}
+
+.light-title {
+  color: whitesmoke;
+}
+
+/* navigation bar */
+
+.navbar {
+  background-color: #9e7777;
+  line-height: 2.2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* styles for section settings */
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* styles for the link in dark background*/
+.dark-link:link {
+  color: #ecccb2;
+}
+
+.dark-link:hover {
+  color: gold;
+}
+
+.dark-link:visited {
+  color: #6f4c5b;
+}
+
+/* styles for the link in light background*/
+.light-link {
+  text-decoration: underline;
+}
+
+.light-link:link {
+  color: #ac7088;
+}
+
+.light-link:hover {
+  color: #ecccb2;
+}
+
+.light-link:visited {
+  color: #9e7777;
+}

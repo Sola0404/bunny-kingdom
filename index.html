@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bunny Kingdom👑</title>
+    <!-- Add a icon to the website -->
+    <link rel="icon" href="Images/bunny.ico" />
+    <!-- Add font style from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Add Bootstrp -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- link to javascript -->
+    <script defer src="index.js"></script>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/b3538af348.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v15.0"
+      nonce="oavS5UVu"
+    ></script>
+
+    <!-- a button that will take the user to the top of the page -->
+    <button onclick="topFunction()" id="top-btn" title="Go to top">↑</button>
+
+    <!-- welcome section -->
+    <div class="welcome-section section">
+      <!-- Nav Bar -->
+      <!-- add little icon in the future -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-navbar">
+        <a class="navbar-brand" href="">🐰</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <!-- assignment btn -->
+            <li class="nav-item">
+              <a class="nav-link" href="assignment.html">Assignment</a>
+            </li>
+            <!-- about me btn -->
+            <li class="nav-item">
+              <a class="nav-link" href="me.html">About Me</a>
+            </li>
+            <!-- bunnies' btn group -->
+            <li class="nav-item btn-group about-bunny-btn">
+              <!-- <a class="nav-link" href="#pros">About Bunny</a> -->
+              <button type="button" class="btn btn-outline nav-link">
+                About Bunny
+              </button>
+              <button
+                type="button"
+                class="btn dropdown-toggle dropdown-toggle-split btn-outline"
+                id="dropdownMenuReference"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                data-reference="parent"
+              >
+                <span class="sr-only toggle">Toggle Dropdown</span>
+              </button>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="dropdownMenuReference"
+              >
+                <a class="dropdown-item" href="#pros">Petting a Bunny</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#playing">Play with Bunnies</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#breeds">Breeds in Australia</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#behavior">Bunnies' Behavior</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#choose">Choose Your Bunny</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="statement.html">Q&A</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feedback.html">Feedback</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- the end of nav bar -->
+
+      <!-- share button -->
+
+      <div class="share-button">
+        <span><i class="fas fa-share-alt"></i></span>
+        <a class="share-facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+        <a class="share-twitter" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="share-reddit" href="#"><i class="fab fa-reddit"></i></a>
+        <a class="share-linkedIn" href="#"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+      </div>
+
+      <!-- the end of share button -->
+
+      <img class="circle-bunny" src="Images/bunny1.png" alt="bunny's photo" />
+      <h1>Bunny Kingdom</h1>
+      <p class="introduction-word">
+        A website designed for bunny lovers and breeders.
+      </p>
+      <p></p>
+      <!-- <img class="bottom-bunny" src="Images/welcome-bunny.png" alt="bunny"> -->
+    </div>
+
+    <!-- the start of pros section -->
+    <div class="pros-section section dark-section" id="pros">
+      <h2 class="light-title">Why petting a bunny?</h2>
+
+      <div class="pros-container">
+        <!-- the start of carousel -->
+        <div
+          id="pros-carousel"
+          class="carousel slide"
+          data-ride="false"
+          data-interval="3000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <img
+                class="pros-bunny-img"
+                src="Images/pros/quiet1.png"
+                alt="bunny's photo"
+              />
+              <h3>They are quiet.</h3>
+              <p>
+                The fact that bunnies make little to no noise is perfect,<br />if
+                you live in an apartment building or have nearby neighbors.
+              </p>
+            </div>
+
+            <div class="carousel-item container-fluid">
+              <img
+                class="pros-bunny-img"
+                src="Images/pros/personality1.png"
+                alt="bunny's photo"
+              />
+              <h3>They have personalities plus.</h3>
+              <p>
+                People who have never had a rabbit as a pet don’t realize that
+                rabbits actually have very distinct personalities.
+                <br />
+                These animals can be charming, affectionate and very
+                interactive.
+              </p>
+            </div>
+
+            <div class="carousel-item container-fluid">
+              <img
+                class="pros-bunny-img"
+                src="Images/pros/bonds1.png"
+                alt="bunny's photo"
+              />
+              <h3>They bond closely with owners.</h3>
+              <p>
+                Bunnies recognize their owners by voice and sight and will even
+                come on command. <br />They may even follow their owners from
+                room to room and jump up on their laps when called.
+              </p>
+            </div>
+
+            <div class="carousel-item container-fluid">
+              <img
+                class="pros-bunny-img"
+                src="Images/pros/less-space1.png"
+                alt="bunny's photo"
+              />
+              <h3>They need less space than other pets.</h3>
+              <p>
+                If you live in a small house or apartment and you’re looking for
+                a cuddly pet <br />who doesn’t require a lot of space and
+                doesn’t need to be walked, a rabbit may be right for you.
+              </p>
+            </div>
+
+            <div class="carousel-item container-fluid">
+              <img
+                class="pros-bunny-img"
+                src="Images/pros/train1.png"
+                alt="bunny's photo"
+              />
+              <h3>They are easily trained.</h3>
+              <p>
+                Using the principles of positive reinforcement training, rabbit
+                owners can encourage their pets <br />to learn certain behaviors
+                repeatedly rewarding them with special treats when they perform
+                these behaviors.
+              </p>
+            </div>
+
+            <div class="carousel-item container-fluid">
+              <img
+                class="pros-bunny-img"
+                src="Images/pros/longlived1.png"
+                alt="bunny's photo"
+              />
+              <h3>They are long-lived.</h3>
+              <p>
+                Pet rabbits, when housed indoors and cared for properly, can
+                live eight to 12 years or even longer.
+                <br />
+                Long life span is an attraction for many people looking for
+                small non-cat/non-dog pets.
+              </p>
+            </div>
+
+            <div class="carousel-item container-fluid">
+              <img
+                class="pros-bunny-img"
+                src="Images/pros/kinds1.png"
+                alt="bunny's photo"
+              />
+              <h3>They come in all shapes, sizes and colors.</h3>
+              <p>
+                Given that there are more than 50 recognized rabbit breeds that
+                vary in size, coat color, length and texture, <br />there is a
+                bunny breed for everyone.
+              </p>
+            </div>
+
+            <div class="carousel-item container-fluid">
+              <img
+                class="pros-bunny-img"
+                src="Images/pros/rescue1.png"
+                alt="bunny's photo"
+              />
+              <h3>They are easy to rescue.</h3>
+              <p>
+                There are so many abandoned bunnies given up to rabbit shelters
+                every year<br />
+                that rescuing a needy rabbit is a relatively easy thing to do.
+              </p>
+            </div>
+
+            <div class="carousel-item container-fluid">
+              <img
+                class="pros-bunny-img"
+                src="Images/pros/clean1.png"
+                alt="bunny's photo"
+              />
+              <h3>They are clean.</h3>
+              <p>
+                They can easily be litterbox-trained <br />and will generally
+                keep themselves very clean with frequent grooming.
+              </p>
+            </div>
+
+            <div class="carousel-item container-fluid">
+              <img
+                class="pros-bunny-img"
+                src="Images/pros/cute1.png"
+                alt="bunny's photo"
+              />
+              <h3>They are definitely cute.</h3>
+              <p>
+                Can you think of a cuter pet than a fuzzy little bunny?<br />❤️
+              </p>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#pros-carousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#pros-carousel"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        <!-- the end of carousel -->
+      </div>
+    </div>
+    <!-- the end of pros section -->
+
+    <!-- this is for gradient decoration -->
+    <div class="gradient-section"></div>
+
+    <!-- the start of playing with bunny section -->
+    <div class="playing-section section" id="playing">
+      <h2>How to play with your bunny? 🥰</h2>
+
+      <!-- <video class="video" controls poster="Images/video-poster.jpg">
+        <source src="How-to-play-with-bunny.mp4" type="video/mp4" />
+        Sorry, your browser doesn't support embedded videos.
+      </video> -->
+
+      <iframe
+        class="video"
+        width="900"
+        height="506"
+        src="https://www.youtube.com/embed/RMTMFBIN3zw"
+        title="How to play with bunny"
+        frameborder="0"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+
+      <img class="video-img1" src="Images/video-section-img1.png" alt="bunny" />
+      <img class="video-img2" src="Images/video-section-img2.png" alt="bunny" />
+    </div>
+    <!-- the end of playing with bunny section -->
+
+    <!-- the start of cons section -->
+    <!-- <div class="cons-section section">
+      <h2 class="cons-heading">
+        However, <br />sometimes petting bunnies is <em>not an easy thing</em>.
+        <br />
+        You should know these things before petting them.
+      </h2>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+              class="cons-bunny-img"
+              src="Images/welcome-bunny5.jpg"
+              alt="bunny's photo"
+            />
+          </div>
+          <div class="col-lg-6 cons-list">
+            <ul>
+              <li class="cons-element">They require a lot of cleanup work.</li>
+              <li class="cons-element">
+                They need to be inside during extreme temperature events.
+              </li>
+              <li class="cons-element">
+                They will chew anything and everything.
+              </li>
+              <li class="cons-element">
+                They can become aggressive if not socialized correctly.
+              </li>
+            </ul>
+            <a class="light-link cons-link" href="bunny-cons.html"
+              >Click me, know more what you need to do.</a
+            >
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- the end of cons section -->
+
+    <!-- this is for gradient decoration -->
+    <div class="converse-gradient-section"></div>
+
+    <!-- the start of breeds section in photo gallery -->
+    <div class="breeds-section section dark-section" id="breeds">
+      <h2 class="light-title">Breeds of Bunnies in Australia</h2>
+
+      <!-- the start of photo gallery -->
+      <div class="photo-gallery">
+        <!-- single gallery item1 -->
+        <div class="gallery-container" onclick="toggle()">
+          <div class="gallery-item">
+            <div class="image-container">
+              <img
+                class="breed-img"
+                src="Images/photo_gallery/american-rabbit.png"
+                alt="American Rabbit"
+              />
+            </div>
+            <div class="image-title">American Rabbit</div>
+          </div>
+        </div>
+
+        <!-- single gallery item2 -->
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image-container">
+              <img
+                class="breed-img"
+                src="Images/photo_gallery/angora-rabbit.png"
+                alt="Angora Rabbit"
+              />
+            </div>
+            <div class="image-title">Angora Rabbit</div>
+          </div>
+        </div>
+
+        <!-- single gallery item3 -->
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image-container">
+              <img
+                class="breed-img"
+                src="Images/photo_gallery/belgian-hare-rabbit.png"
+                alt="Belgian Hare"
+              />
+            </div>
+            <div class="image-title">Belgian Hare</div>
+          </div>
+        </div>
+
+        <!-- single gallery item4 -->
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image-container">
+              <img
+                class="breed-img"
+                src="Images/photo_gallery/beveren-rabbit.png"
+                alt="Beveren Rabbit"
+              />
+            </div>
+            <div class="image-title">Beveren Rabbit</div>
+          </div>
+        </div>
+
+        <!-- single gallery item5 -->
+        <!-- <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image-container">
+              <img
+                class="breed-img"
+                src="Images/photo_gallery/california-rabbit.png"
+                alt="Californian Rabbit"
+              />
+            </div>
+            <div class="image-title">Californian Rabbit</div>
+          </div>
+        </div> -->
+
+        <!-- single gallery item6 -->
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image-container">
+              <img
+                class="breed-img"
+                src="Images/photo_gallery/dutch-rabbit.png"
+                alt="Dutch Rabbit"
+              />
+            </div>
+            <div class="image-title">Dutch Rabbit</div>
+          </div>
+        </div>
+
+        <!-- single gallery item7 -->
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image-container">
+              <img
+                class="breed-img"
+                src="Images/photo_gallery/mini-lop-rabbit.png"
+                alt="Mini Lop Rabbit"
+              />
+            </div>
+            <div class="image-title">Mini Lop Rabbit</div>
+          </div>
+        </div>
+
+        <!-- single gallery item8 -->
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image-container">
+              <img
+                class="breed-img"
+                src="Images/photo_gallery/dwarf-angora-rabbit.png"
+                alt="Dwarf Angora Rabbit"
+              />
+            </div>
+            <div class="image-title">Dwarf Angora Rabbit</div>
+          </div>
+        </div>
+
+        <!-- single gallery item9 -->
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image-container">
+              <img
+                class="breed-img"
+                src="Images/photo_gallery/holland-lop-rabbit.png"
+                alt="Holland Lop Rabbit"
+              />
+            </div>
+            <div class="image-title">Holland Lop Rabbit</div>
+          </div>
+        </div>
+
+        <!-- single gallery item10 -->
+        <!-- <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image-container">
+              <img
+                class="breed-img"
+                src="Images/photo_gallery/rex-rabbit.png"
+                alt="Rex Rabbit"
+              />
+            </div>
+            <div class="image-title">Rex Rabbit</div>
+          </div>
+        </div> -->
+
+        <!-- single gallery item11 -->
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image-container">
+              <img
+                class="breed-img"
+                src="Images/photo_gallery/netherland-dwarf-rabbit.png"
+                alt="Netherland Dwarf Rabbit"
+              />
+            </div>
+            <div class="image-title">Netherland Dwarf Rabbit</div>
+          </div>
+        </div>
+
+        <!-- single gallery item12 -->
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image-container">
+              <img
+                class="breed-img"
+                src="Images/photo_gallery/french-lop-rabbit.png"
+                alt="French Lop Rabbit"
+              />
+            </div>
+
+            <div class="image-title">French Lop Rabbit</div>
+          </div>
+        </div>
+      </div>
+      <!-- the end of photo gallery -->
+    </div>
+    <!-- the end of breeds section in photo gallery -->
+
+    <!-- the start of behavior section -->
+    <div class="behavior-section section container-fluid" id="behavior">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="left-header">Do you understand <br />🐰 behaviors?</h2>
+          <p class="left-text">
+            Hover on the image to see the behavior tag. <br />(There are Teemo
+            pics in some tags😊)
+          </p>
+          <p class="left-text">Click to see what the behavior means.</p>
+          <div class="teemo-behavior">
+            <img id="teemo" />
+          </div>
+        </div>
+
+        <!-- Image Map -->
+        <div class="col-lg-6">
+          <img
+            class="behavior-map"
+            src="Images/bunny-behavior.png"
+            usemap="#image-map"
+          />
+
+          <map name="image-map">
+            <area
+              id="binky"
+              alt="Binky"
+              title="Binky"
+              href="behavior-pages/binky.html"
+              coords="39, 39, 150, 150"
+              shape="rect"
+            />
+            <area
+              id="ear-shaking"
+              alt="Ear Shaking"
+              title="Ear Shaking"
+              href="behavior-pages/ear-shaking.html"
+              coords="194.6, 39, 360 ,150"
+              shape="rect"
+            />
+            <area
+              id="zooming"
+              alt="Zooming"
+              title="Zooming"
+              href="behavior-pages/zooming.html"
+              coords="389, 39, 500, 150"
+              shape="rect"
+            />
+            <area
+              id="purring"
+              alt="Purring"
+              title="Purring"
+              href="behavior-pages/purring.html"
+              coords="39,240,170,350"
+              shape="rect"
+            />
+            <area
+              id="grooming"
+              alt="Grooming"
+              title="Grooming"
+              href="behavior-pages/grooming.html"
+              coords="410,270,550,375"
+              shape="rect"
+            />
+            <area
+              id="sprawling"
+              alt="Sprawling"
+              title="Sprawling"
+              href="behavior-pages/sprawling.html"
+              coords="39,450,170,510"
+              shape="rect"
+            />
+            <area
+              id="flopping"
+              alt="Flopping"
+              title="Flopping"
+              href="behavior-pages/flopping.html"
+              coords="200,420,370,510"
+              shape="rect"
+            />
+            <area
+              id="loafing"
+              alt="Loafing"
+              title="Loafing"
+              href="behavior-pages/loafing.html"
+              coords="410,430,530,510"
+              shape="rect"
+            />
+          </map>
+
+          <h2 id="behavior-tag">?</h2>
+        </div>
+      </div>
+    </div>
+    <!-- the end of test section -->
+
+    <!-- the start of choose section -->
+    <div class="choose-section section" id="choose">
+      <h2 class="choose-section-header">How to pick YOUR bunny?</h2>
+
+      <p class="choose-section-desc">
+        There are 8 questions you should ask your breeder before buying a bunny.
+      </p>
+
+      <div class="accordion">
+        <!-- question 1's accordion item -->
+        <div class="accordion-item">
+          <div class="accordion-item-header">What breed is the rabbit?</div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <p>
+                This might seem like an obvious question, especially if you
+                visit a breeder specializing in one breed. It’s always a good
+                idea to double-check, though. Some non-reputable breeders will
+                pass off look-alike rabbits as pedigree.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- question 2's accordion item -->
+        <div class="accordion-item">
+          <div class="accordion-item-header">Is the rabbit socialized?</div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <p>
+                Depending on why you’re buying a rabbit, whether it’s for
+                breeding, showing, or a family pet, asking about their
+                socialization will tell you what to expect from your bunny. Some
+                breeders don’t interact with their stock, and the rabbits will
+                be timid and unsure around people and other animals as a result.
+              </p>
+              <p>
+                If you have children, other pets, or both, it’s important to
+                make sure your new rabbit will be at ease around them. Not only
+                will your newest family member be more comfortable around you,
+                but they’ll also settle into their new home much faster.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- question 3's accordion item -->
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            Does the rabbit have a pedigree?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <p>
+                A family pet doesn’t necessarily need a pedigree or proof of
+                lineage, especially if you have no plans to take your rabbit to
+                competitions. However, if you do plan to take your rabbit to
+                shows or even start your own in-home breeder business, you’ll
+                need to prove that your rabbit comes from good stock.
+              </p>
+              <p>
+                Pedigree paperwork is an official way of claiming a certain
+                bloodline. It proves that your rabbit comes from a long line of
+                ancestors of the same breed. For shows and breeding registered
+                pedigree rabbits, these papers are essential.
+              </p>
+              <p>
+                Make sure your breeder keeps the pedigree documentation for
+                their stock. They should include the paperwork with the price of
+                your new rabbit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- question 4's accordion item -->
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            How much will the rabbit cost?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <p>
+                Pedigree animals are always more expensive than mixed breeds.
+                They’re highly sought after and backed by official directories
+                that hold breeds to a particular standard and ensure that
+                bloodlines aren’t tampered with.
+              </p>
+              <p>
+                You should know how much your new rabbit will cost before
+                visiting so you don’t get blindsided, but it’s always a good
+                idea to double-check before agreeing to pay anything.
+              </p>
+              <p>
+                The cost of your rabbit will vary depending on age, breed,
+                quality, and sex. Remember, reputable breeders include
+                veterinary expenses, pedigree papers, and often a health
+                guarantee in their asking price. Prices can range from anywhere
+                between a few hundred to a few thousand dollars, and anything
+                surprisingly cheap should give you pause.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- question 5's accordion item -->
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            How long has the breeder been raising rabbits?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <p>
+                An inexperienced breeder doesn’t necessarily mean they’re not
+                serious about their work. However, a more experienced breeder —
+                with a history full of raising rabbits, if not breeding them —
+                will be more familiar with the animal and the breed.
+              </p>
+              <p>
+                They’ll have a working knowledge of common issues of caring for
+                rabbits. If it’s your first time looking after rabbits, an
+                experienced breeder will give you advice on how best to take
+                care of your newest family member.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- question 6's accordion item -->
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            What food does the breeder use?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <p>
+                Asking what food the breeder uses serves two purposes. For new
+                rabbit owners, it’ll give you an idea of what to feed your new
+                rabbit. Breeders worth their weight in gold will only choose
+                high-quality food that will give their rabbits the nutrients and
+                minerals that they need, along with ensuring a balanced diet.
+              </p>
+              <p>
+                More experienced rabbit owners can use this question to find out
+                if the rabbits in the breeder’s care are given proper meals. If
+                a breeder turns out to be feeding their rabbits food that will
+                cause them harm, it may cause long-lasting health issues down
+                the line.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- question 7's accordion item -->
+        <div class="accordion-item">
+          <div class="accordion-item-header">How big will the rabbit grow?</div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <p>
+                Asking the breeder, particularly one who’s been breeding rabbits
+                for years, will give you more insight into your new pet’s
+                ancestry. They’ll be able to give you a more accurate estimate
+                of how large your rabbit will be.
+              </p>
+              <p>
+                This particular question is also important due to any space
+                constrictions at home. If you accidentally buy a giant ball of
+                fur instead of a dwarf rabbit for your one-bedroom apartment,
+                you may find yourself struggling to fit them into your home.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- question 8's accordion item -->
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            When is the rabbit’s birthday?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <p>
+                Instead of asking how old the rabbit is, which can lead to
+                unsatisfactory and vague responses, try asking for the rabbit’s
+                birthday. Breeders keep detailed records of every part of the
+                breeding process, including birth records.
+              </p>
+              <p>Knowing the rabbit's birthday will tell you two things:</p>
+              <ul>
+                <li>
+                  Whether the rabbit is 8 weeks old or not — any animal younger
+                  than this should not be taken away from their mother.
+                </li>
+                <li>
+                  How seriously the breeder takes record-keeping — if they can’t
+                  keep track of birthdays, vet checks and pedigree certificates
+                  will be forgotten too.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- the end of choose section -->
+
+    <div class="shop-section section">
+      <h2>Bunny Shop</h2>
+      <p>You can buy toys for your baby bunny in these shops!</p>
+
+      <hr />
+
+      <div
+        class="fb-page"
+        data-tabs="timeline,messages"
+        data-href="https://www.facebook.com/mosukibunnyshop"
+        data-width="320"
+        data-height="400"
+        data-hide-cover="false"
+      ></div>
+
+      <div
+        class="fb-page"
+        data-tabs="timeline,messages"
+        data-href="https://www.facebook.com/Angusbunnytoys.co"
+        data-width="320"
+        data-height="400"
+        data-hide-cover="false"
+      ></div>
+
+      <div
+        class="fb-page"
+        data-tabs="timeline,messages"
+        data-href="https://www.facebook.com/maresminilopbunnies"
+        data-width="320"
+        data-height="400"
+        data-hide-cover="false"
+      ></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section section" id="footer">
+      <div class="container-fluid">
+        <i class="social-icon fa-brands fa-twitter twitter"></i>
+        <i class="social-icon fa-brands fa-github github"></i>
+        <i class="social-icon fa-brands fa-facebook-f facebook"></i>
+        <i class="social-icon fa-brands fa-linkedin linkedin"></i>
+
+        <p>© Copyright Yujia Chen</p>
+      </div>
+    </footer>
+  </body>
+</html>
