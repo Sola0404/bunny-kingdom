@@ -1,0 +1,65 @@
+h1 {
+  font-family: 'Sacramento', cursive;
+}
+/* welcome part */
+
+.welcome-section {
+  padding-top: 0;
+}
+
+.hello-word {
+  margin: 90px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.sun-img {
+  margin-top: 50px;
+  width: 10%;
+}
+
+/* About me part */
+
+.about-me-section {
+  line-height: 40px;
+  background: #9E7777;
+  color: #F5E8C7;
+  font-size: 1.5rem;
+}
+
+.profile-img {
+  margin-bottom: 30px;
+  width: 17%;
+}
+
+/* My passion section */
+.passion-section h2 {
+  font-weight: bold;
+}
+
+.passion-section h3 {
+  color: #9E7777;
+}
+
+.passion-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.code-img {
+  width: 25%;
+  /* make the text around the img */
+  float: left;
+  margin-right: 30px;
+}
+
+.bunny-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}

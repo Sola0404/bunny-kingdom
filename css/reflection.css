@@ -1,0 +1,20 @@
+body {
+  background-image: url("../Images/dark-tire.png");
+}
+
+h2 {
+  font-weight: bold;
+}
+
+/* style for the main card  */
+
+.card {
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  padding: 40px 10%;
+  margin: 40px 150px;
+  position: relative;
+  box-shadow: 8rem;
+  text-align: left;
+  line-height: 2;
+}
