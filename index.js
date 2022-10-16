@@ -5,7 +5,7 @@ const share_facebook = document.querySelector(".share-facebook");
 const share_linkedIn = document.querySelector(".share-linkedIn");
 const share_reddit = document.querySelector(".share-reddit");
 
-const pageUrl = "https://sola0404.github.io/bunny-kingdom/";
+const pageUrl = "https://sola0404.github.io/6780_Ass/";
 const message = "Let's meet Bunny Kingdom together!";
 
 const twitterAPI = `https://twitter.com/intent/tweet?text=${pageUrl}. ${message}`;
