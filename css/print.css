@@ -1,0 +1,101 @@
+body {
+  /* margin: 50px; */
+  padding: 40px 100px;
+  font-family: Merriweather, sans-serif;
+}
+
+h1 {
+  text-indent: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+h2 {
+  text-indent: 0;
+  text-align: center;
+  margin: 50px 0 0 0;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 135%; 
+}
+
+h3 {
+  text-indent: 0;
+  text-align: left;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* ensure the new page after */
+.next-page {
+  page-break-after: always;
+}
+
+/* style for welcome section */
+.welcome-section {
+  padding-top: 130px;
+}
+
+.circle-bunny {
+  float: left;
+  width: 30%;
+  margin-right: 50px;
+}
+
+.welcome-section h1 {
+  padding-top: 1px;
+}
+
+.introduction-word {
+  font-style: italic;
+}
+
+.clear {
+  clear: left;
+}
+
+/* style for index section */
+.index-title {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.index-item {
+  margin: 50px 0;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+
+/* style for pros section */
+.pros-section {
+  line-height: 1rem;
+}
+
+.pros-item {
+  margin-top: 40px;
+}
+
+/* style for breeds section */
+.breeds-section {
+  line-height: 1.3rem;
+}
+
+.breeds-section h3 {
+  text-align: center;
+}
+
+.breeds-section h3 {
+  margin-bottom: 30px;
+}
+
+.breeds-section li {
+  margin: 10px 0;
+}
+
+

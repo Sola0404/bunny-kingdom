@@ -120,6 +120,8 @@
                 <a class="dropdown-item" href="#behavior">Bunnies' Behavior</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#choose">Choose Your Bunny</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#shop">Bunny Shops</a>
               </div>
             </li>
 
@@ -128,6 +130,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="feedback.html">Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="print.html">Print Version</a>
             </li>
           </ul>
         </div>
@@ -341,18 +346,12 @@
     <div class="playing-section section" id="playing">
       <h2>How to play with your bunny? 🥰</h2>
 
-      <!-- <video class="video" controls poster="Images/video-poster.jpg">
-        <source src="How-to-play-with-bunny.mp4" type="video/mp4" />
-        Sorry, your browser doesn't support embedded videos.
-      </video> -->
-
       <iframe
         class="video"
         width="900"
         height="506"
         src="https://www.youtube.com/embed/RMTMFBIN3zw"
         title="How to play with bunny"
-        frameborder="0"
         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
@@ -361,45 +360,6 @@
       <img class="video-img2" src="Images/video-section-img2.png" alt="bunny" />
     </div>
     <!-- the end of playing with bunny section -->
-
-    <!-- the start of cons section -->
-    <!-- <div class="cons-section section">
-      <h2 class="cons-heading">
-        However, <br />sometimes petting bunnies is <em>not an easy thing</em>.
-        <br />
-        You should know these things before petting them.
-      </h2>
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6">
-            <img
-              class="cons-bunny-img"
-              src="Images/welcome-bunny5.jpg"
-              alt="bunny's photo"
-            />
-          </div>
-          <div class="col-lg-6 cons-list">
-            <ul>
-              <li class="cons-element">They require a lot of cleanup work.</li>
-              <li class="cons-element">
-                They need to be inside during extreme temperature events.
-              </li>
-              <li class="cons-element">
-                They will chew anything and everything.
-              </li>
-              <li class="cons-element">
-                They can become aggressive if not socialized correctly.
-              </li>
-            </ul>
-            <a class="light-link cons-link" href="bunny-cons.html"
-              >Click me, know more what you need to do.</a
-            >
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- the end of cons section -->
 
     <!-- this is for gradient decoration -->
     <div class="converse-gradient-section"></div>
@@ -466,20 +426,6 @@
           </div>
         </div>
 
-        <!-- single gallery item5 -->
-        <!-- <div class="gallery-container">
-          <div class="gallery-item">
-            <div class="image-container">
-              <img
-                class="breed-img"
-                src="Images/photo_gallery/california-rabbit.png"
-                alt="Californian Rabbit"
-              />
-            </div>
-            <div class="image-title">Californian Rabbit</div>
-          </div>
-        </div> -->
-
         <!-- single gallery item6 -->
         <div class="gallery-container">
           <div class="gallery-item">
@@ -536,20 +482,6 @@
           </div>
         </div>
 
-        <!-- single gallery item10 -->
-        <!-- <div class="gallery-container">
-          <div class="gallery-item">
-            <div class="image-container">
-              <img
-                class="breed-img"
-                src="Images/photo_gallery/rex-rabbit.png"
-                alt="Rex Rabbit"
-              />
-            </div>
-            <div class="image-title">Rex Rabbit</div>
-          </div>
-        </div> -->
-
         <!-- single gallery item11 -->
         <div class="gallery-container">
           <div class="gallery-item">
@@ -594,7 +526,7 @@
           </p>
           <p class="left-text">Click to see what the behavior means.</p>
           <div class="teemo-behavior">
-            <img id="teemo" />
+            <img id="teemo" alt="teemo image" src=""/>
           </div>
         </div>
 
@@ -604,6 +536,7 @@
             class="behavior-map"
             src="Images/bunny-behavior.png"
             usemap="#image-map"
+            alt="image map"
           />
 
           <map name="image-map">
@@ -885,7 +818,7 @@
     </div>
     <!-- the end of choose section -->
 
-    <div class="shop-section section">
+    <div class="shop-section section" id="shop">
       <h2>Bunny Shop</h2>
       <p>You can buy toys for your baby bunny in these shops!</p>
 
@@ -896,7 +829,7 @@
         data-tabs="timeline,messages"
         data-href="https://www.facebook.com/mosukibunnyshop"
         data-width="320"
-        data-height="400"
+        data-height="450"
         data-hide-cover="false"
       ></div>
 
@@ -905,7 +838,7 @@
         data-tabs="timeline,messages"
         data-href="https://www.facebook.com/Angusbunnytoys.co"
         data-width="320"
-        data-height="400"
+        data-height="450"
         data-hide-cover="false"
       ></div>
 
@@ -914,10 +847,25 @@
         data-tabs="timeline,messages"
         data-href="https://www.facebook.com/maresminilopbunnies"
         data-width="320"
-        data-height="400"
+        data-height="450"
         data-hide-cover="false"
       ></div>
     </div>
+
+    <!-- <div
+      class="tagembed-container"
+      style="width: 100%; height: 100%; overflow: auto"
+    >
+      <div
+        class="tagembed-socialwall"
+        data-wall-id="70325"
+        view-url="https://widget.tagembed.com/70325?view"
+      ></div>
+      <script
+        src="//widget.tagembed.com/embed.min.js"
+        type="text/javascript"
+      ></script>
+    </div> -->
 
     <!-- Footer -->
     <footer class="footer-section section" id="footer">
@@ -927,7 +875,9 @@
         <i class="social-icon fa-brands fa-facebook-f facebook"></i>
         <i class="social-icon fa-brands fa-linkedin linkedin"></i>
 
-        <p>© Copyright Yujia Chen</p>
+        <br />
+        <br />
+        <p>Made with ❤️ by Yujia</p>
       </div>
     </footer>
   </body>
